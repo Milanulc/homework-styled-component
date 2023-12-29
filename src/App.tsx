@@ -1,12 +1,20 @@
 import React from 'react';
 import './App.css';
+import {StyledButton} from "./components/StyledButton";
+
 
 function App() {
   return (
     <div className="App">
-      <div>Test1</div>
+        <StyledButton filled>See more</StyledButton>
+        <StyledButton unfilled>Save</StyledButton>
+
+
+
     </div>
   );
 }
 
 export default App;
+
+

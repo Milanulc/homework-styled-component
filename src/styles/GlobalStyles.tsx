@@ -1,5 +1,8 @@
 import {createGlobalStyle} from "styled-components";
 
+
+
+
  export const GlobalStyles = createGlobalStyle`
   *,
   *::before,
@@ -10,7 +13,18 @@ import {createGlobalStyle} from "styled-components";
   }
   
   body{
-   font-family: Inter,sans-serif;
+   
+   background-color: darkcyan;
+  }
+
+  button{
+   font-family: 'Inter', sans-serif;
+   font-size: 10px;
+   font-weight: 700;
+   line-height: 20px;
+   letter-spacing: 0em;
+   
+
   }
     
 `
