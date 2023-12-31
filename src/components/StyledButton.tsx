@@ -1,5 +1,6 @@
 import styled, {css} from "styled-components";
 import {Myvariables} from "../styles/Theme.styled";
+import {StyledLink} from "../styles/StyledLink";
 
 
 
@@ -23,6 +24,17 @@ export const StyledButton = styled.button<StyledButtonPropsType>`
         line-height: 20px;
         letter-spacing: 0em;
         margin: 19px 0px 22px 20px;
+        
+        &:hover{
+            background-color: ${Myvariables.colors.white};
+            border: 2px solid ${Myvariables.colors.main};
+            ${StyledLink}{
+                color:${Myvariables.colors.main}
+            }
+        }
+        
+        
+       
 
 
 
