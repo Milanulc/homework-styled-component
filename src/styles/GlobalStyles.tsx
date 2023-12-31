@@ -1,4 +1,5 @@
 import {createGlobalStyle} from "styled-components";
+import {Myvariables} from "./Theme.styled";
 
 
 
@@ -14,7 +15,7 @@ import {createGlobalStyle} from "styled-components";
   
   body{
    
-   background-color: darkcyan;
+   background-color: ${Myvariables.colors.white};
   }
 
   button{
